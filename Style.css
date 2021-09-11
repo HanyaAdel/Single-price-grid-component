@@ -1,21 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
 *{
-    background-color:  hsl(204, 43%, 93%);
-    font-family: "Karla", sans-serif;
+    
+    font-family: 'Karla', sans-serif;
     font-weight: 400;
+    color: black;
+    box-sizing: border-box;
+    
 }
 body{
+    background-color:  hsl(204, 43%, 93%);
     display: flex;
-    
+    justify-content: center;
+    align-items: center;
+}
+.Card{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 90px ;
     width:570px;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin: auto;
-    margin-top: 100px ;
-    
 }
 section#top{
     padding: 20px;
-    width: 530px;
+    width: 570px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     background-color: white;
@@ -38,17 +46,7 @@ div#txt> p{
     padding-bottom: 10px;
 }
 
-section#container{
-    margin: auto;
-    width: 570px;
-    display: flex;
-}
 
-section#container > section{
-    
-    padding: 20px;
-    width: 245px;
-}
 h2{
     font-size: 16px;
     color: white;
@@ -57,35 +55,38 @@ h2{
 }
 section#bottomLeft{
     background-color: hsl(179, 62%, 43%);
+    padding: 20px;
+    width: 285px;
+    
 
 }
 section#bottomLeft > h2{
+    
     background-color: hsl(179, 62%, 43%);
+
 }
 div#priceSection{
     display: flex;
-    background-color: hsl(179, 62%, 43%);
     
 }
 div#price{
-    background-color: hsl(179, 62%, 43%);
+    
     font-size: 30px;
     color: white; 
     padding-right: 10px ;
 }
 div#price2{
-    background-color: hsl(179, 62%, 43%);
+    
     color: rgba(236, 235, 235, 0.63); 
     padding-top: 7px ;
 }
 div#txt2{
     padding-top:10px;
     padding-bottom:10px;
-    background-color: hsl(179, 62%, 43%);
+    
     color: white;
 }
 div#btnCont{
-    background-color: hsl(179, 62%, 43%);
     display: flex;
     justify-content: center;
     
@@ -104,17 +105,17 @@ button#signUp{
 }
 section#bottomRight{
     background-color: hsl(179, 40%, 53%);
+    padding: 20px;
+    width: 285px;
 }
-section#bottomRight >h2{
-    background-color: hsl(179, 40%, 53%);
-}
+
 ul#list{
     padding: 0;
-    background-color: hsl(179, 40%, 53%);
+    
     list-style: none;
 }
 ul#list > li{
-    background-color: hsl(179, 40%, 53%);
+    
     padding-bottom: 5px;
     font-size: 14px;
     color: rgba(236, 235, 235, 0.74); 
