@@ -18,8 +18,7 @@ body{
     width:45%;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    display: flex;
-    flex-direction: column;
+
     
 }
 section#top{
@@ -27,9 +26,6 @@ section#top{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     background-color: white;
-    display: flex;
-    flex-direction: column;
-    flex: 1em;
 }
 section#bottom{
     display: flex;
@@ -59,8 +55,6 @@ h2{
 section#bottomLeft{
     background-color: hsl(179, 62%, 43%);
     padding: 20px;
-    display: flex;
-    flex-direction: column;
     flex: 0.5em;
 
 }
@@ -111,8 +105,6 @@ button#signUp{
 section#bottomRight{
     background-color: hsl(179, 40%, 53%);
     padding: 20px;
-    display: flex;
-    flex-direction: column;
     flex: 0.5em;
     
 }
@@ -128,11 +120,8 @@ ul#list > li{
     font-size: 14px;
     color: rgba(236, 235, 235, 0.74); 
 }
-@media (max-width: 380px) {
+@media (max-width: 400px) {
     #bottom{
-        flex-direction: column;
-    }
-    .Card{
         flex-direction: column;
     }
 }
