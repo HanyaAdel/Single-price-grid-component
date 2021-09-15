@@ -27,6 +27,7 @@ Users should be able to:
 ### Screenshot
 
 <p>Desktop Layout<img src="Screenshots/DesktopLayout.png" alt="Desktop Layout" align="center"></p>
+<p>Mobile Layout<img src="Screenshots/MobileLayout.png" alt="Mobile Layout" align="center"></p>
 
 ### Links
 
