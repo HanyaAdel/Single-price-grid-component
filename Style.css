@@ -102,6 +102,10 @@ button#signUp{
     margin-top: 20px;
 
 }
+#signUp:hover{
+    background-color: hsl(71, 72%, 40%) ;
+    cursor: pointer;
+}
 section#bottomRight{
     background-color: hsl(179, 40%, 53%);
     padding: 20px;
@@ -119,6 +123,14 @@ ul#list > li{
     padding-bottom: 5px;
     font-size: 14px;
     color: rgba(236, 235, 235, 0.74); 
+}
+footer{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 12px;
+}
+a{
+    color:rgb(139, 136, 136);
 }
 @media (max-width: 400px) {
     #bottom{
