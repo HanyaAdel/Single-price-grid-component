@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: <a href="https://github.com/HanyaAdel/Single-price-grid-component" target="_new"></a> Github repository
-- Live Site URL: <a href="https://hanyaadel.github.io/Single-price-grid-component" target="_new"></a> Demo
+- Solution URL: <a href="https://github.com/HanyaAdel/Single-price-grid-component/" target="_new"> Github repository</a>
+- Live Site URL: <a href="https://hanyaadel.github.io/Single-price-grid-component/" target="_new"> Demo</a>
 
 ## My process
 
