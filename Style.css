@@ -1,32 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
 *{
-    background-color:  hsl(204, 43%, 93%);
-    font-family: "Karla", sans-serif;
+    
+    font-family: 'Karla', sans-serif;
     font-weight: 400;
+    color: black;
+    box-sizing: border-box;
+    
 }
 body{
-    display: flex;
+    background-color:  hsl(204, 43%, 93%);
     
-    width:570px;
+
+}
+.Card{
+    margin: auto;
+    margin-top: 90px ;
+    width:45%;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin: auto;
-    margin-top: 100px ;
+    display: flex;
+    flex-direction: column;
     
 }
 section#top{
     padding: 20px;
-    width: 530px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex: 1em;
+}
+section#bottom{
+    display: flex;
 }
 p#title{
     color: hsl(179, 62%, 43%);
-    background-color: white;
     font-weight: 700;
 }
 p#subtitle{
-    background-color: white;
     color: hsl(71, 73%, 54%);
     font-weight: 700;
 }
@@ -34,66 +46,60 @@ p#subtitle{
 div#txt> p{
     margin: 0px;;
     color: hsl(218, 22%, 67%);
-    background-color: white;
     padding-bottom: 10px;
 }
 
-section#container{
-    margin: auto;
-    width: 570px;
-    display: flex;
-}
 
-section#container > section{
-    
-    padding: 20px;
-    width: 245px;
-}
 h2{
     font-size: 16px;
     color: white;
     font-weight: 700;
-    background-color: non;
+    
 }
 section#bottomLeft{
     background-color: hsl(179, 62%, 43%);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex: 0.5em;
 
 }
 section#bottomLeft > h2{
+    
     background-color: hsl(179, 62%, 43%);
+
 }
 div#priceSection{
     display: flex;
-    background-color: hsl(179, 62%, 43%);
     
 }
 div#price{
-    background-color: hsl(179, 62%, 43%);
+    
     font-size: 30px;
     color: white; 
     padding-right: 10px ;
 }
 div#price2{
-    background-color: hsl(179, 62%, 43%);
+    
     color: rgba(236, 235, 235, 0.63); 
     padding-top: 7px ;
 }
 div#txt2{
     padding-top:10px;
     padding-bottom:10px;
-    background-color: hsl(179, 62%, 43%);
+    
     color: white;
 }
 div#btnCont{
-    background-color: hsl(179, 62%, 43%);
     display: flex;
     justify-content: center;
     
 }
 button#signUp{
+    
     border: none;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width: fit-content;
+    width:fit-content;
     border-radius: 10px;
     font-size: 16px;
     color: white;
@@ -104,18 +110,29 @@ button#signUp{
 }
 section#bottomRight{
     background-color: hsl(179, 40%, 53%);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex: 0.5em;
+    
 }
-section#bottomRight >h2{
-    background-color: hsl(179, 40%, 53%);
-}
+
 ul#list{
     padding: 0;
-    background-color: hsl(179, 40%, 53%);
+    
     list-style: none;
 }
 ul#list > li{
-    background-color: hsl(179, 40%, 53%);
+    
     padding-bottom: 5px;
     font-size: 14px;
     color: rgba(236, 235, 235, 0.74); 
+}
+@media (max-width: 380px) {
+    #bottom{
+        flex-direction: column;
+    }
+    .Card{
+        flex-direction: column;
+    }
 }
